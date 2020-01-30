@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
-import sexmachine.detector as gender
+import gender_guesser.detector as gender
 from sklearn.preprocessing import Imputer
 from sklearn import cross_validation
 from sklearn import metrics
