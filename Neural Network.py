@@ -46,8 +46,8 @@ from pybrain.tools.xml.networkreader import NetworkReader
 
 def read_datasets():
     """ Reads users profile from csv files """
-    genuine_users = pd.read_csv("data/users.csv")
-    fake_users = pd.read_csv("data/fusers.csv")
+    genuine_users = pd.read_csv("C:\Users\74\Desktop\Project\users.csv")
+    fake_users = pd.read_csv("C:\Users\74\Desktop\Project\fusers.csv")
     # print genuine_users.columns
     # print genuine_users.describe()
     #print fake_users.describe()
